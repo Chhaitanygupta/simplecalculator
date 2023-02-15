@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Calculator</div>
+        <div class="display"><p id="display"></p></div>
+        <div class="keypad">
+            <button class="btn" id="btn_AC" data-value="AC"><label for="btn_AC">AC</label></button>
+            <button class="btn" id="btn_both" data-value="null"><label for="btn_both">+/-</label></button>
+            <button class="btn" id="btn_percent" data-value="%"><label for="btn_percent">%</label></button>
+            <button class="btn btn_opr" id="btn_divide" data-value="/"><label for="btn_divide">/</label></button>
+            <button class="btn" id="btn7" data-value="7"><label for="btn7">7</label></button>
+            <button class="btn" id="btn8" data-value="8"><label for="btn8">8</label></button>
+            <button class="btn" id="btn9" data-value="9"><label for="btn9">9</label></button>
+            <button class="btn btn_opr" id="btn_mul" data-value="*"><label for="btn_mul">*</label></button>
+            <button class="btn" id="btn4" data-value="4"><label for="btn4">4</label></button>
+            <button class="btn" id="btn5" data-value="5"><label for="btn5">5</label></button>
+            <button class="btn" id="btn6" data-value="6"><label for="btn6">6</label></button>
+            <button class="btn btn_opr" id="btn_-" data-value="-"><label for="btn_-">-</label></button>
+            <button class="btn" id="btn1" data-value="1"><label for="btn1">1</label></button>
+            <button class="btn" id="btn2" data-value="2"><label for="btn2">2</label></button>
+            <button class="btn" id="btn3" data-value="3"><label for="btn3">3</label></button>
+            <button class="btn btn_opr" id="btn_+" data-value="+"><label for="btn_+">+</label></button>
+            <button class="btn" id="btn0" data-value="0"><label for="btn0">0</label></button>
+            <button class="btn" id="btn_dot" data-value="."><label for="btn_dot">.</label></button>
+            <button class="btn btn_opr" id="btn_equal" data-value="="><label for="btn_equal">=</label></button>
+        </div>
+    </div>
+    <!-- <script>
+        var buttons = document.getElementsByClassName("btn")
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function(){
+                alert("clicked");
+            })
+            
+        }
+    </script> -->
+    <script src="script.js"></script>
+</body>
+</html>
